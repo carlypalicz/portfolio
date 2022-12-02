@@ -409,7 +409,13 @@ h1.post-title,
     padding-bottom: 100px;
 }
 .light-wrapper {
-    background: #FFF;
+    background: rgba(255, 255, 255, 0.5);
+}
+.half-opacity {
+    opacity: .5;
+}
+.full-opacity {
+    opacity: 1;
 }
 .gray-wrapper {
     background: #f7f8fc;
@@ -3076,6 +3082,15 @@ a.color-s-youtube-square:hover,
 /*-----------------------------------------------------------------------------------*/
 /*	25. OVERLAY
 /*-----------------------------------------------------------------------------------*/
+.portfolio-caption {
+    visibility:hidden;
+    margin-top: -7em;
+    margin-left: 4em;
+}
+
+figure:hover > .portfolio-caption {
+    visibility:visible;
+}
 .overlay {
     position: relative;
     overflow: hidden;
@@ -5359,7 +5374,7 @@ list-blue i {
     background-color: #1abb9c !important;
 }
 .bg-teal {
-    background-color: #67bbb2 !important;
+    background-color: teal !important;
 }
 .bg-oasis {
     background-color: #98bec8 !important;
