@@ -4741,6 +4741,13 @@ pre {
     position: relative;
 }
 
+ @media only screen and (min-width: 600px) {
+    .header-padding {
+        padding-top: 200px;
+        padding-bottom: 500px;
+    }
+}
+
 .image-wrapper-pos-center-top {
     background-position: center top;
 }
