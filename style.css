@@ -4748,6 +4748,13 @@ pre {
     }
 }
 
+@media only screen and (min-width: 700px) {
+    .ports-header-padding {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+}
+
 .image-wrapper-pos-center-top {
     background-position: center top;
 }
